@@ -4,10 +4,10 @@ Learning React and ES6 by building a Movie Discovery App.
 
 ## Screens
 
-- [ ] Home
-- [ ] TV Shows
-- [ ] Search
-- [ ] Detail
+- [x] Home
+- [x] TV Shows
+- [x] Search
+- [x] Detail
 
 ## API Verbs
 
@@ -19,3 +19,7 @@ Learning React and ES6 by building a Movie Discovery App.
 - [x] Movie Detail
 - [x] Tv Show Detail
 - [x] Search (Tv, MOvie)
+
+# Preview:
+
+Try it on [Netlify](https://naughty-feynman-b5390b.netlify.app)
