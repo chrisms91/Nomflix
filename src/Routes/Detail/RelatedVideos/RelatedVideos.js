@@ -12,7 +12,6 @@ const Container = styled.div`
 const P = styled.p``;
 
 const RelatedVideos = ({ videos: { results } }) => {
-  console.log(results);
   return results.length > 0 ? (
     <Container>
       {results.map((vid) => (

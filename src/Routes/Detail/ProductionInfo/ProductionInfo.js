@@ -12,7 +12,6 @@ const Container = styled.div`
 const P = styled.p``;
 
 const ProductionInfo = ({ production_companies: companies }) => {
-  console.log(companies);
   return companies.length > 0 ? (
     <Container>
       {companies.map((comp) => (

@@ -191,7 +191,6 @@ const DetailPresenter = withRouter(
             <Overview>{result.overview}</Overview>
             <InsideMenu>
               <List>
-                {console.log(pathname)}
                 <ListItem active={pathname.endsWith('videos')}>
                   <Link
                     to={(location) => {

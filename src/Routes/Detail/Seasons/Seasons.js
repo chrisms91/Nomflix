@@ -12,7 +12,6 @@ const Container = styled.div`
 const P = styled.p``;
 
 const Seasons = ({ id, seasons }) => {
-  console.log(seasons);
   return seasons.length > 0 ? (
     <Container>
       {seasons.map((season) => (
