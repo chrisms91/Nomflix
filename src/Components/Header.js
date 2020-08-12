@@ -39,13 +39,13 @@ const SLink = styled(Link)`
 const HeaderComponent = ({ location: { pathname } }) => (
   <Header>
     <List>
-      <Item current={pathname === '/'}>
+      <Item current={pathname.includes('movie')}>
         <SLink to="/">Movies</SLink>
       </Item>
-      <Item current={pathname === '/tv'}>
-        <SLink to="/tv">TV</SLink>
+      <Item current={pathname.includes('show')}>
+        <SLink to="/shows">TV</SLink>
       </Item>
-      <Item current={pathname === '/search'}>
+      <Item current={pathname.includes('search')}>
         <SLink to="/search">Search</SLink>
       </Item>
     </List>
